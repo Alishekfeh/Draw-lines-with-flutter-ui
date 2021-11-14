@@ -213,7 +213,7 @@ class _Profile2State extends State<Profile2> {
               child: Container(
                     child: CircleAvatar(
                       radius: 40,
-                      
+
                       backgroundImage: ExactAssetImage('assets/shared/profile.jpg',scale: 40),
 
 
