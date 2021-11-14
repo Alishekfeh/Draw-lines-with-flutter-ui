@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:uicode/profile_1/profile_one.dart';
+import 'package:uicode/profile_2/profile2.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: ProfileOne(),
+      home: Profile2(),
     );
   }
 }

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:uicode/profile_1/provider.dart';
 import 'package:uicode/profile_1/user.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:uicode/widgit/row_follow.dart';
 
 class ProfileOne extends StatefulWidget {
   const ProfileOne({Key key}) : super(key: key);
@@ -153,43 +154,7 @@ class _ProfileOneState extends State<ProfileOne> {
   }
 }
 
-class ColumnFollow extends StatelessWidget {
-  const ColumnFollow({
-    Key key,
-    @required this.title,
-    @required this.profile,
-  }) : super(key: key);
 
-  final String title, profile;
-
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Text(
-          title,
-          style: TextStyle(
-              color: Colors.grey.shade600,
-              fontSize: 18,
-              fontWeight: FontWeight.w600),
-        ),
-        SizedBox(
-          height: 6,
-        ),
-        Text(
-          profile,
-          style: TextStyle(
-              fontSize: 20,
-              color: Colors.grey.shade800,
-              fontWeight: FontWeight.bold),
-        ),
-        SizedBox(
-          height: 10,
-        )
-      ],
-    );
-  }
-}
 
 class ProfilePainter extends CustomPainter {
   @override
