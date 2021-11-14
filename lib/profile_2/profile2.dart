@@ -193,7 +193,7 @@ class _Profile2State extends State<Profile2> {
               letterSpacing: 1.2,
               fontSize: 18,
               color: Colors.grey.shade800,
-              height: 1.3),
+              height: 1.4),
         ),
       )
     ];
